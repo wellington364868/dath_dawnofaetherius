@@ -1,0 +1,36 @@
+
+
+
+SMTHING
+
+- perk DATH_BasicSmithing: para aplicar ModifyTemperedHealth de 0.01 ao materiais básicos
+
+- perk DATH_SmithingArts (RAIZ)
+
+
+- perk DATH_BonemoldSmithing
+- perk DATH_ChitinSmithing
+- perk DATH_DaedricSmithing
+- perk DATH_DragonSmithing
+- perk DATH_DwarvenSmithing
+- perk DATH_EbonySmithing
+- perk DATH_ElvenSmithing
+- perk DATH_GlassSmithing
+- perk DATH_LeatherSmithing
+- perk DATH_NordicSmithing
+- perk DATH_OrcishSmithing
+- perk DATH_ScaledSmithing
+- perk DATH_StalhrimSmithing
+- perk DATH_SteelSmithing
+
+-------------------------------------------------------------
+
+2025-11-14
+-inicio da reestruturação da arvore de Smithing
+- criação da perk "SmithingArts". Novo root da arvore
+- Mudança do ModifyTemperedHealth para 0.1
+- Colocada como RANK 2 a PERK vanilla blacksmithArts sem alteração. Mantendo máxima compatibilidade
+- Colocada SteelSmithing como sequencia de SmithingArts na ramificação Heavy
+- Criado ramificação para Orcish direto de SteelSmithing.
+- Removida a ligação de Dwearven para Orcish. Agora Steel apenas leva a Orcish
+- Criação do RANK 2 de OrcishSmithing: OrcishMastery 
